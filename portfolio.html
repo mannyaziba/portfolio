@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manny Aziba Portfolio</title>
+    <style>
+        /* General Reset */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: #F4F4F4;
+        }
+
+        header {
+            background: #D32F2F;
+            color: #F4F4F4;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #F4F4F4;
+            margin: 0 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: #A4F4AE;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-family: 'Cardo', serif;
+            margin-bottom: 1rem;
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #D32F2F;
+            color: #F4F4F4;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 0.25rem;
+            transition: background 0.3s;
+        }
+
+        .cta:hover {
+            background: #B87333;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project {
+            background: #FFF;
+            border: 1px solid #DDD;
+            border-radius: 0.25rem;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+
+        .project-content {
+            padding: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #F4F4F4;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 768px) {
+            header, footer {
+                text-align: left;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manny Aziba</h1>
+        <p>Building Brands, Designing Futures</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Your partner in crafting transformative brand identities that elevate your business and career.</p>
+        <a href="#portfolio" class="cta">Explore My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Manny Aziba, a dedicated brand designer committed to helping professionals, entrepreneurs, and SMEs tell their stories through innovative design and strategy. Let’s build your future together.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="grid">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <div class="project-content">
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of the project and its transformative impact.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <div class="project-content">
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of the project and its transformative impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Logo Design</li>
+            <li>Brand Identity Kits</li>
+            <li>Personal Branding</li>
+            <li>Resume Optimization</li>
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>“Manny transformed our brand and made our vision a reality. We’ve seen incredible growth since!” – Client A</p>
+        <p>“The personal branding strategies helped me stand out in a competitive market. Highly recommend!” – Client B</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Ready to elevate your brand? Reach out today!</p>
+        <a href="mailto:mannyaziba@gmail.com" class="cta">Email Me</a>
+    </section>
+
+    <footer>
+        <p>© 2024 Immanuel Aziba. All rights reserved.</p>
+    </footer>
+</body>
+</html>
